@@ -1,0 +1,1 @@
+This is webpack2.0 doc
