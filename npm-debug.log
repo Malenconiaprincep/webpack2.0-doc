@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'retryjs' ]
+2 info using npm@3.8.6
+3 info using node@v6.2.2
+4 verbose config Skipping project config: /Users/user/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly rollbackFailedOptional Starting
+9 silly rollbackFailedOptional Finishing
+10 silly runTopLevelLifecycles Starting
+11 silly runTopLevelLifecycles Finishing
+12 silly install printInstalled
+13 verbose stack Error: ENOENT: no such file or directory, realpath '/Users/user/node_modules/generator-makuta'
+13 verbose stack     at Error (native)
+14 verbose cwd /Users/user/Documents/workspace/gitbook/webpack2.0
+15 error Darwin 15.2.0
+16 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "retryjs"
+17 error node v6.2.2
+18 error npm  v3.8.6
+19 error path /Users/user/node_modules/generator-makuta
+20 error code ENOENT
+21 error errno -2
+22 error syscall realpath
+23 error enoent ENOENT: no such file or directory, realpath '/Users/user/node_modules/generator-makuta'
+24 error enoent ENOENT: no such file or directory, realpath '/Users/user/node_modules/generator-makuta'
+24 error enoent This is most likely not a problem with npm itself
+24 error enoent and is related to npm not being able to find a file.
+25 verbose exit [ -2, true ]
